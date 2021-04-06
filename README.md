@@ -13,6 +13,6 @@ Adding a SoftMax Layer & a Layer-Normalization Layer hurts the performance, so I
 | Time / step | 41ms | 35ms | -6ms |
 | RMSE | 0.9239 | 0.9199 | -0.0040 |
 ## Future Work
-An embedding size with 8 dimension achieves the best performance on my net (on MovieLens-10m, 6 dimension is the best, with RMSE 0.87).  
+An embedding size with 8 dimension achieves the best performance on my net (on MovieLens-20m, 6 dimension is the best, with RMSE 0.87).  
 This is a significant reduction comparing to Deep Cross Net, where mine yields the performance gain.  
 I am really curious about the reason, because generally larger dimensions means more information.  
