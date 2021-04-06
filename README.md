@@ -9,7 +9,7 @@ Adding a SoftMax Layer & a Layer-Normalization Layer hurts the performance, so I
 * Environment: Tensorflow 2.4.1, Python 3.8.5, Windows 10 20H2, CPU Intel 1135G7, no GPU
 ## Experiment Result
 | Evaluation | Deep Cross Net | Mine | Improvement |
-|-|-|-|-|
+|:-:|:-:|:-:|:-:|
 | Time / step | 41ms | 35ms | -6ms |
 | RMSE | 0.9239 | 0.9199 | -0.0040 |
 ## Future Work
